@@ -10,8 +10,8 @@
 
 #### What you'll need
 
-1. Kubernetes v1.8+ or higher deployed. We recommend using [minikube](TODO) to get a demo cluster up quickly.
-1. [`kubectl`](TODO) installed on your local machine.
+1. Kubernetes v1.8+ or higher deployed. We recommend using [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) to get a demo cluster up quickly.
+1. [`kubectl`](https://kubernetes.io/docs/tasks/tools/install-kubectl/) installed on your local machine.
 
 Once your Kubernetes cluster is up and running, run the following command to deploy Gloo and Envoy to the `gloo-system` namespace:
 
@@ -61,7 +61,7 @@ svc/gloo    ClusterIP   10.104.86.18    <none>        8081/TCP                  
 
 ```
 
-Everything should be up and running. If this process does not work, please [open an issue](TODO). We are happy to answer
-questions on our [diligently staffed Slack channel](TODO).
+Everything should be up and running. If this process does not work, please [open an issue](https://github.com/solo-io/gloo/issues/new). We are happy to answer
+questions on our [diligently staffed Slack channel](slack.solo.io).
 
 See [Getting Started on Kubernetes](../getting_started/kubernetes.md) to get started creating routes with Gloo.
